@@ -1,16 +1,14 @@
 # Generating Emails with GPT3
 
-[![](https://img.youtube.com/vi/oJWBQKrF4uM/0.jpg)](https://www.youtube.com/watch?v=oJWBQKrF4uM)
-
 
 # [Working Demo]( https://email-generation.herokuapp.com/)
 
 _____
-## How to run this on your local computer:
+## How to run this on your daisi:
 * Sign up for an [OpenAI account](https://beta.openai.com/signup) and put your private key in **ml_backend.py**
 * Clone & Download this repo
-* Install streamlit by using **pip install streamlit** and openai by using **pip install openai**
-* In the project folder, open a terminal and enter **streamlit run emailapp.py**
+* Install streamlit in requirements.txt file in your github code.
+* Synchronize the github repository in your daisi app.
 
 ## Business Benefits and Usecases:
 * Time saved writing medium-long sized emails

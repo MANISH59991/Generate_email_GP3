@@ -19,6 +19,20 @@ st.markdown("""
 
 """)
 
+def add_bg_from_url():
+    st.markdown(f"""
+         <style>
+         .stApp {{
+             background-image: url("https://img.freepik.com/free-vector/white-elegant-texture-wallpaper_23-2148417584.jpg?w=996&t=st=1666156838~exp=1666157438~hmac=e24eec2b798ed5e545bcaebd1bd06156a38bed10cd96b0a623a6f2cf17fc8e21");
+             background-attachment: fixed;
+             background-size: cover}}
+             </style>""",unsafe_allow_html=True)
+add_bg_from_url() 
+
+
+
+
+
 st.markdown("# Generate Email")
 
 backend = ml_backend()
